@@ -1,0 +1,8 @@
+C=int(input())
+U1=int(input())
+PU1=float(input())
+D=int(input())
+U2=int(input())
+PU2=float(input())
+PAY=(U1*PU1) + (U2*PU2)
+print("VALOR A PAGAR: R$ {0:.2f}".format(PAY))
